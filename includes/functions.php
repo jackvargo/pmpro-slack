@@ -8,8 +8,8 @@ add_action( 'pmpro_after_checkout', 'pmprosla_pmpro_after_checkout', 10, 2 );
  *
  * @since 1.0
  */
-function pmprosla_pmpro_after_checkout( $user_id ) {
-	$level        = pmpro_getMembershipLevelForUser( $user_id );
+function pmprosla_pmpro_after_checkout( $user_id, $order ) {
+	$level        = pmpro_getSpecificMembershipLevelForUser( $user_id, $order->membership_id );
 	$current_user = get_userdata( $user_id );
 	$options      = pmprosla_get_options();
 	$webhook_url  = $options['webhook'];
