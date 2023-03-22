@@ -1,9 +1,9 @@
 === Paid Memberships Pro - Slack Integration ===
 Contributors: strangerstudios, nikv, dlparker1005
 Tags: paid memberships pro, pmpro, slack, notifications
-Requires at least: 3.5
-Tested up to: 5.3
-Stable tag: 1.1
+Requires at least: 5.6
+Tested up to: 6.2
+Stable tag: 1.1.1
 
 Slack integration for the Paid Memberships Pro plugin
 
@@ -29,6 +29,10 @@ Please post it in the issues section of GitHub and we'll fix it as soon as we ca
 Please visit our premium support site at http://www.paidmembershipspro.com for more documentation and our support forums.
 
 == Changelog ==
+= 1.1.1 - 2023-03-22 =
+* BUG FIX/ENHANCEMENT: Adding compatibility with PMPro Multiple Memberships Per User.
+* BUG FIX: Resolved PHP warning when checking out without having any levels set on the PMPro Slack settings page.
+
 = 1.1 - 2020-01-02 =
 * BUG FIX: Fixed issue where purchase details would not be sent in Slack notification.
 * ENHANCEMENT: Changed level select field to use SelectWoo.
