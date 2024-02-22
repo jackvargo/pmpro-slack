@@ -1,0 +1,27 @@
+{
+    "name": "jackvargo/pmpro-slack",
+    "description": "Configure Slack notifications for the Paid Memberships Pro plugin.",
+    "type": "wordpress-plugin",
+    "homepage": "https://www.paidmembershipspro.com/add-ons/pmpro-slack-integration/",
+    "require": {
+        "php": ">=7.0",
+        "johnpbloch/wordpress": ">=5.0"
+    },
+    "authors": [
+        {
+            "name": "strangerstudios",
+            "homepage": "https://github.com/strangerstudios"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/strangerstudios/pmpro-slack",
+        "issues": "https://github.com/strangerstudios/pmpro-slack/issues"
+    },
+    "extra": {
+        "original_repository": "https://github.com/strangerstudios/pmpro-slack",
+        "stars": 3,
+        "watchers": 3,
+        "forks": 3,
+        "open_issues": 5
+    }
+}
